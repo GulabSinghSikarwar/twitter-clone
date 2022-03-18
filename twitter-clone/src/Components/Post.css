@@ -1,0 +1,24 @@
+.Post{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.Post > img{
+    height: 30px;
+}
+.PostBody{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.PostHeader{
+font-size: 12px;
+text-transform: capitalize;
+font-weight: 700;
+
+}
+.PostBodyCotent > p{
+size: 12px;
+}

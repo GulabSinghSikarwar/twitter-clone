@@ -1,0 +1,6 @@
+.allPosts{
+    display: contents;
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: antiquewhite;
+}
