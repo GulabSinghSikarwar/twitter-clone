@@ -1,5 +1,9 @@
 .allPosts{
     display: contents;
+    flex: 0.33;
+    max-width: 500px;
+    /* padding: 0px 50px; */
+
     flex-direction: column;
     overflow-y: scroll;
     background-color: antiquewhite;

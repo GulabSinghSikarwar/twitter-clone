@@ -45,19 +45,14 @@ function Posts() {
       console.log( "event data  : ",data.data);
       addData(data.data)
      })
-    //  const socket =openSocket('http://localhost:5000')
-    //  console.log(socket);
-    //  socket.on( 'posts',(data)=>{
-    //    console.log( "data -> ", data);
-    // //  addData(data.post)
-    //  })
+    
 
 
 
   }, [])
   const allPost = posts.map((post) => {
     console.log(post.title);
-    return <Post title={post.title} body={post.body} image={post.image} />
+    return <Post key={post._id} id={post._id} title={post.title} body={post.body} image={post.image} />
 
   })
   return (

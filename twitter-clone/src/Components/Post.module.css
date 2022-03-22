@@ -1,0 +1,176 @@
+.Post{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 50px;
+    flex: 1;
+    max-width:83%;
+
+    
+    /* background-image: url('./resources/images/postBodyImage.jpg'); */
+    /* flex-direction: column; */
+}
+.Post > img{
+    /* height: 50px; */
+}
+.userImage{
+    border-radius: 50%;
+}
+.PostBody{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+.PostHeader{
+font-size: 12px;
+text-transform: capitalize;
+font-weight: 700;
+display: flex;
+
+}
+.PostBodyCotent{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.PostBodyHeader{
+    display: flex;
+    align-items: center;
+}
+.PostBodyHeader > h4{
+font-size: 14px;
+font-weight: 600;
+}
+
+
+.userHandel{
+    color:rgb(83, 100, 113); 
+    font-size: 12px;
+    margin-left: 3px;
+    
+}
+.post_Body_Main_content_text >p{
+font-size: 12px;
+font-weight: 300;
+}
+.Post_body_content_main_img{
+    /* max-width: 600px; */
+    /* object-fit: contain; */
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: 10px;
+}
+.Post_Footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+
+}
+
+.Post_reply{
+
+    /* flex: 0.25; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    /* margin-right: auto; */
+    justify-content: flex-start;
+
+    /* width: fit-content;
+    height: fit-content; */
+}
+.Post_reply >h4{
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+.reply{
+    background-image: url('./resources/images/replyOne.png');
+    height: 12px;
+    /* background-image: url(
+        
+    ); */
+    width: 12px;
+    background-size: cover;
+    
+
+}
+
+.reply:hover{
+
+    background-image: url('../Components/resources/images/replyTwo.png');
+}
+.Post_retweet{
+    /* flex: 0.25; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.Post_retweet  >h4{
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.retweet{
+
+    background-image: url('../Components/resources/images/retweetOne.png');
+    height: 12px;
+    width: 12px;
+    background-size: cover;
+}
+.retweet:hover{
+    background-image: url('../Components//resources/images/retweetTwo.png');
+}
+
+.Post_like{
+    /* flex: 0.25; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+}
+.Post_like  >h4{
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+.like{
+    background-image: url('../Components/resources/images/likeOne.png');
+    height: 12px;
+    width: 12px;
+    background-size: cover;
+}
+.like:hover{
+    background-image: url('../Components//resources/images/likeTwo.png');
+}
+.Post_share{
+    /* flex: 0.25; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.Post_share  >h4{
+    font-size: 8px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.share{
+    background-image: url('../Components/resources/images/shareOne.png');
+    height: 12px;
+    width: 12px;
+    background-size: cover;
+}
+.share:hover{
+    background-image: url('../Components//resources/images/shareTwo.png');
+}

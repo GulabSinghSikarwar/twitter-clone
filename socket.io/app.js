@@ -29,12 +29,12 @@ app.use((req,resp,next)=>{
 
 })
 
-app.use((req,resp,next)=>{
-resp.setHeader('Access-Control-Allow-Origin','*')
-resp.setHeader('Access-Control-Allow-Methods','GET,POST')
-// resp.setHeader('Access-Control-Allow-Headers','*')
-resp.setHeader('Access-Control-Allow-Headers','Content-type','Authorization')
-    
+app.use((req,res,next)=>{
+
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    res.setHeader('Access-Control-Allow-Credentials', true);
 next()
 })
 app.use(PostRoute)

@@ -1,0 +1,327 @@
+.mainContainer {
+
+  position: relative;
+  max-width: 35%;
+  border: 1px solid black;
+  flex: 0.2;
+  /* left: 0px; */
+  display: flex;
+  padding-top: 8px;
+  padding-left: 4%;
+  /* background-color: aqua; */
+  /* max-width: 300px; */
+  /* margin-right: auto; */
+  height: 100vh;
+  overflow-y: scroll;
+
+  
+  
+  
+  /* position: relative; */
+}
+
+.sidebarContainer {
+  /* background-color: aquamarine; */
+  margin-left: auto;
+  padding-right: 50px;
+  /* padding-left: 20px; */
+}
+
+.fetatureIconsContainer {
+  /* width: 100%; */
+  /* background-color: antiquewhite; */
+  /* margin-left: auto; */
+  /* max-width: 120px; */
+}
+
+.bird_Icon_Container {
+  display: flex;
+  align-items: center;
+  /* min-width: ; */
+}
+
+.bird_Icon_Container>img {
+  width: 32px;
+  object-fit: contain;
+  max-height: 45px;
+}
+
+.bird_Icon_Container>h4 {
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 7px;
+}
+
+.home_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.home_Icon_text {
+  display: none;
+}
+
+.home_Icon_Container>img {
+  width: 25px;
+  object-fit: contain;
+}
+
+.home_Icon_Container>h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 7px;
+}
+
+.search_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.search_Icon_text {
+  display: none;
+}
+
+.search_Icon_Container>img {
+  width: 25px;
+  object-fit: contain;
+}
+
+.search_Icon_Container>h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 7px;
+}
+
+.Notifications_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.Notifications_Icon_text {
+  display: none;
+}
+
+
+
+.Notifications_Icon_Container>h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.Messages_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.message_Icon_text {
+  display: none;
+}
+
+.Messages_Icon_Container>img {
+  width: 25px;
+  object-fit: contain;
+}
+
+.Messages_Icon_Container>h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.Notifications_Icon_Container {
+  display: flex;
+  align-items: center;
+  /* min-width: ; */
+}
+
+.Notifications_Icon_Container>img {
+  width: 25px  ;
+  object-fit: contain;
+}
+
+.Notifications_Icon_Container>h4 {
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 7px;
+}
+
+.bookmark_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.bookmark_Icon_text {
+  display: none;
+}
+
+.bookmark_Icon_Container>img {
+  width: 25px;
+  object-fit: contain;
+}
+
+.bookmark_Icon_Container>h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.list_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.list_Icon_Container>img {
+  width: 25px;
+  object-fit: contain;
+}
+
+.list_Icon_Container>h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.list_Icon_text {
+  display: none;
+}
+
+.profile_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.profile_Icon_Container>img {
+  width: 25px;
+  object-fit: contain;
+}
+
+.profile_Icon_Container>h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.profile_Icon_text {
+  display: none;
+}
+
+.more_Icon_Container {
+  display: flex;
+  align-items: center;
+  max-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* min-width: ; */
+}
+
+.more_Icon_Container>img {
+  width: 25px;
+  object-fit: contain;
+}
+
+.more_Icon_text {
+  display: none;
+}
+
+.more_Icon_Container>h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  /* background-color: ; */
+}
+
+@media screen and (max-width:700px) {
+  .mainContainer{
+    display: none;
+  }
+}
+@media screen and (max-width:950px) {
+
+  .bird_Icon_Container>h4, .home_Icon_Container>h4,
+  .search_Icon_Container>h4, .Notifications_Icon_Container>h4,
+  .Messages_Icon_Container>h4,
+  .Notifications_Icon_Container>h3,
+  .bookmark_Icon_Container>h4,
+  .list_Icon_Container>h4,
+  .profile_Icon_Container>h4, .more_Icon_Container>h4 {
+    display: none;
+  }
+
+  .home_Icon_Container, .bird_Icon_Container, .bookmark_Icon_Container, .list_Icon_Container, .Messages_Icon_Container, .more_Icon_Container,
+  .Notifications_Icon_Container, .profile_Icon_Container, .search_Icon_Container {
+    padding: 10px 0px;
+  }
+
+  .home_Icon_Container:hover+.home_Icon_text {
+    display: block;
+    position: fixed;
+    /* left: 10px; */
+    top: 69px;
+    font-size: 8px;
+    font-weight: 500;
+    margin-left: 7px;
+    left: 17px;
+    color: white;
+    padding: 1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .search_Icon_Container:hover+.search_Icon_text {
+    display: block;
+    position: fixed;
+    /* left: 10px; */
+    top: 109px;
+    font-size: 8px;
+    font-weight: 500;
+    margin-left: 7px;
+    left: 17px;
+    color: white;
+    padding: 1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .Notifications_Icon_Container:hover+.Notifications_Icon_text {
+    display: block;
+    position: fixed;
+    /* left: 10px; */
+    top: 149px;
+    font-size: 8px;
+    font-weight: 500;
+    margin-left: 7px;
+    left: 17px;
+    color: white;
+    padding: 1px;
+    border-radius: 2px;
+  }
+}
