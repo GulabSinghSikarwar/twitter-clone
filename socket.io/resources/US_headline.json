@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+    {
+    "source": {
+    "id": null,
+    "name": "The Guardian"
+    },
+    "author": "Bryan Armen Graham",
+    "title": "Mexico v USA: World Cup 2022 qualifying – live! - The Guardian",
+    "description": "Minute-by-minute report: The old rivals face each other at the Azteca with a place at Qatar 2022 at stake. Join Bryan Graham for the latest news",
+    "url": "https://www.theguardian.com/football/live/2022/mar/24/mexico-v-usa-world-cup-2022-qualifying-live-score-soccer",
+    "urlToImage": "https://i.guim.co.uk/img/media/1443be8b9ec5848c1a036527d45c9748b4f6511b/0_137_3500_2101/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=79416b8d1e42fb9be57010da169fc47f",
+    "publishedAt": "2022-03-25T02:42:10Z",
+    "content": null
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "KETV Omaha"
+    },
+    "author": "David Earl",
+    "title": "Nebraska Congressman Jeff Fortenberry convicted for lying to FBI about foreign campaign contribution - KETV Omaha",
+    "description": "The verdict is in. A federal jury in Los Angeles finds Nebraska Congressman Jeff Fortenberry guilty of three felony counts for lying to the FBI about a 2016 foreign campaign contribution.",
+    "url": "https://www.ketv.com/article/nebraska-congressman-jeff-fortenberry-convicted-lying-fbi-foreign-campaign-contribution/39532704",
+    "urlToImage": "https://kubrick.htvapps.com/vidthumb/e7f0898f-acc6-437d-949f-af9644ce74ac/e7f0898f-acc6-437d-949f-af9644ce74ac_image.jpg?crop=0.700xw:0.699xh;0.103xw,0.0435xh&resize=1200:*",
+    "publishedAt": "2022-03-25T02:31:00Z",
+    "content": "LOS ANGELES —A federal jury in Los Angeles has convicted Nebraska Congressman Jeff Fortenberry of three felony counts for lying to the FBI about a 2016 foreign campaign contribution.\r\nFortenberry was… [+2163 chars]"
+    },
+    {
+    "source": {
+    "id": "cnn",
+    "name": "CNN"
+    },
+    "author": "Yoonjung Seo, Gawon Bae, Emiko Jozuka and Brad Lendon, CNN",
+    "title": "North Korea fires first suspected ICBM since 2017 - CNN",
+    "description": "North Korea has fired what is believed to be its first intercontinental ballistic missile (ICBM) in more than four years as Western leaders gather in Brussels for a security summit.",
+    "url": "https://www.cnn.com/2022/03/24/asia/north-korea-missile-test-intl-hnk/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220324021313-kim-jong-un-02282022-super-tease.jpg",
+    "publishedAt": "2022-03-25T02:25:00Z",
+    "content": null
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "STLtoday.com"
+    },
+    "author": "Jacob Barker",
+    "title": "Latest population estimates show St. Louis metro area losing ground, the city dropping below 300000 - St. Louis Post-Dispatch",
+    "description": "And in an unexpected and worrying sign, the region entered a “demographic winter,” as the number of deaths outpaced births.",
+    "url": "https://www.stltoday.com/news/local/govt-and-politics/latest-population-estimates-show-st-louis-metro-area-losing-ground-the-city-dropping-below-300/article_45648ce9-5e61-5f71-94c6-959a6bd664ad.html",
+    "urlToImage": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/4/56/45648ce9-5e61-5f71-94c6-959a6bd664ad/623cf7f2892af.preview.jpg?crop=1838%2C965%2C0%2C81&resize=1200%2C630&order=crop%2Cresize",
+    "publishedAt": "2022-03-25T01:13:00Z",
+    "content": "ST. LOUIS  The number of people who live in the city of St. Louis fell below 300,000 in 2021 and the metropolitan area also saw a decline in population as the region for the first time recorded more … [+9093 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "New York Post"
+    },
+    "author": "Patrick Reilly",
+    "title": "Car carrying 6 teens killed in Oklahoma crash rolled through stop sign: NTSB - New York Post ",
+    "description": "The six girls were traveling in a Chevrolet Spark that is designed to carry four passengers. Only the driver and the passenger were wearing seat belts, according to a report by the Oklahoma Highway…",
+    "url": "https://nypost.com/2022/03/24/car-carrying-6-teens-killed-in-oklahoma-crash-rolled-through-stop-sign/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/03/oaklahoma-accident-498.jpg?quality=90&strip=all&w=1024",
+    "publishedAt": "2022-03-25T01:08:00Z",
+    "content": "The small, four seat car with six high school girls packed inside rolled through a stop sign at an Oklahoma intersection before it was struck by a semi-truck, killing all of the teens inside, federal… [+2359 chars]"
+    },
+    {
+    "source": {
+    "id": "usa-today",
+    "name": "USA Today"
+    },
+    "author": ", USA TODAY",
+    "title": "March Madness 2022 live updates: Arkansas leads No. 1 Gonzaga; Duke, Coach K face Texas Tech - USA TODAY",
+    "description": "The 2022 men's NCAA Tournament continues Thursday with four games in the Sweet 16. Follow along for live updates.",
+    "url": "https://www.usatoday.com/story/sports/ncaab/tourney/2022/03/24/ncaa-tournament-live-updates-thursday/7158198001/",
+    "urlToImage": "https://www.gannett-cdn.com/presto/2022/03/24/USAT/03a3c25f-3bbe-4b38-ac3c-b88414fb2547-_zags1.jpg?auto=webp&crop=6113,3439,x1106,y129&format=pjpg&width=1200",
+    "publishedAt": "2022-03-25T00:22:30Z",
+    "content": "Lace up those dancing shoes. The Sweet 16 has arrived. \r\nFour men's games tonight will kick off an exciting weekend of March Madness that will set the Final Four in both the men's and women's bracket… [+6841 chars]"
+    },
+    {
+    "source": {
+    "id": "cnn",
+    "name": "CNN"
+    },
+    "author": "Tim Lister, Celine Alkhaldi, Olga Voitovych and Gianluca Mezzofiore, CNN",
+    "title": "Ukrainians claim to have destroyed large Russian warship in Berdyansk - CNN",
+    "description": "Ukrainian armed forces have said they destroyed a large Russian landing ship at the port of Berdyansk in southern Ukraine on Thursday.",
+    "url": "https://www.cnn.com/2022/03/24/europe/ukraine-russian-warship-berdyansk-intl/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220324085528-berdyansk-boat-sinking-032422-super-tease.jpg",
+    "publishedAt": "2022-03-25T00:13:23Z",
+    "content": null
+    },
+    {
+    "source": {
+    "id": "cnn",
+    "name": "CNN"
+    },
+    "author": "Zachary Cohen and Oren Liebermann, CNN",
+    "title": "Ukraine tells the US it needs 500 Javelins and 500 Stingers per day - CNN",
+    "description": "Ukraine has updated its extensive wishlist of additional military assistance from the US government in the past several days to include hundreds more anti-aircraft and anti-tank missiles than previously requested, according to a document provided to CNN that …",
+    "url": "https://www.cnn.com/2022/03/24/politics/ukraine-us-request-javelin-stinger-missiles/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220324184442-01-ukraine-us-request-javelin-stinger-missiles-super-tease.jpg",
+    "publishedAt": "2022-03-25T00:13:00Z",
+    "content": "(CNN)Ukraine has updated its extensive wishlist of additional military assistance from the US government in the past several days to include hundreds more anti-aircraft and anti-tank missiles than pr… [+2988 chars]"
+    },
+    {
+    "source": {
+    "id": "cnn",
+    "name": "CNN"
+    },
+    "author": "Tierney Sneed",
+    "title": "Key takeaways from the four days of confirmation hearings for Ketanji Brown Jackson - CNN",
+    "description": "Four days of confirmation hearings gave America the fullest picture yet of the judge who will likely become the first Black female justice of the US Supreme Court.",
+    "url": "https://www.cnn.com/2022/03/24/politics/takeaways-final-day-ketanji-brown-jackson/index.html",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220322092601-04-ketanji-brown-jackson-hearings-0322.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2022-03-24T23:31:00Z",
+    "content": "Four days of confirmation hearings gave America the fullest picture yet of the judge who will likely become the first Black female justice of the US Supreme Court. \r\nJudge Ketanji Brown Jackson spent… [+10491 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "CNBC"
+    },
+    "author": "Krystal Hur",
+    "title": "Agco CEO says Russia-Ukraine war's potential consequences on global food supply is 'a really big deal' - CNBC",
+    "description": "\"When that volume of calories comes out of the food chain, it triggers other things. Not only hunger, but unrest,\" Hansotia said on Thursday's \"Mad Money.\"",
+    "url": "https://www.cnbc.com/2022/03/24/agco-ceo-says-russia-ukraine-wars-potential-consequences-on-global-food-supply-is-a-really-big-deal.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/104029278-104081040rb.jpg?v=1532564006&w=1920&h=1080",
+    "publishedAt": "2022-03-24T23:17:28Z",
+    "content": "Diminished food supply resulting from Russia's invasion of Ukraine has potential consequences beyond empty stomachs, Agco chief executive Eric Hansotia told CNBC's Jim Cramer on Thursday.\r\nAccording … [+2266 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Deadline"
+    },
+    "author": "Tom Tapp",
+    "title": "Los Angeles BA.2 Covid Cases Jump 130% In One Week As More Transmissible Omicron Variant Spreads Across U.S. - Deadline",
+    "description": "Los Angeles County Public Health officials announced today that the county of 10 million people had finally begun to experience a trend that has already hit many parts of the United States: a rapid rise in the number of Covid cases attributed to the more tran…",
+    "url": "https://deadline.com/2022/03/ba-2-omicron-cases-los-angeles-1234986553/",
+    "urlToImage": "https://deadline.com/wp-content/uploads/2021/03/AdobeStock_90015597.jpeg?w=1024",
+    "publishedAt": "2022-03-24T23:14:00Z",
+    "content": "Los Angeles County Public Health officials announced today that the county of 10 million people had finally begun to experience a trend that has already hit many parts of the United States: a rapid r… [+3441 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "CNBC"
+    },
+    "author": "Krystal Hur",
+    "title": "History shows investors should stick to profitable companies if Fed tightens inflation action, Jim Cramer says - CNBC",
+    "description": "\"The lesson of 2000 is to stick with profitable companies with real products or services,\" the \"Mad Money\" host said Thursday.",
+    "url": "https://www.cnbc.com/2022/03/24/history-shows-investors-should-stick-to-profitable-companies-if-fed-tightens-inflation-action-jim-cramer-says.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/105815432-1553624483309img_8129r.jpg?v=1553624574&w=1920&h=1080",
+    "publishedAt": "2022-03-24T22:45:22Z",
+    "content": "CNBC's Jim Cramer on Thursday advised investors to invest in profitable companies if the Federal Reserve institutes a half-point double rate hike, using an analysis of the Fed's last double rate hike… [+2307 chars]"
+    },
+    {
+    "source": {
+    "id": "the-washington-post",
+    "name": "The Washington Post"
+    },
+    "author": "Bob Woodward, Robert Costa",
+    "title": "Virginia Thomas urged White House chief to pursue unrelenting efforts to overturn the 2020 election, texts show - The Washington Post",
+    "description": "",
+    "url": "https://www.washingtonpost.com/politics/2022/03/24/virginia-thomas-mark-meadows-texts/",
+    "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4F3GVKVLWII6ZCUOTRXJ7R5A3Y.jpg&w=1440",
+    "publishedAt": "2022-03-24T22:36:21Z",
+    "content": "The messages 29 in all reveal an extraordinary pipeline between Virginia Thomas, who goes by Ginni, and President Donald Trumps top aide during a period when Trump and his allies were vowing to go to… [+17441 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "YouTube"
+    },
+    "author": null,
+    "title": "Can Boas Breathe While They Constrict? - LiveScience",
+    "description": null,
+    "url": "https://www.youtube.com/supported_browsers?next_url=https:%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DYLmM73tl3aY",
+    "urlToImage": null,
+    "publishedAt": "2022-03-24T22:00:10Z",
+    "content": null
+    },
+    {
+    "source": {
+    "id": "usa-today",
+    "name": "USA Today"
+    },
+    "author": "John Bacon, Maureen Groppe, Rebecca Morin, Christal Hayes, Michael Collins and Celina Tebor, USA TODAY",
+    "title": "Biden says Russia should be booted from G-20; Russia's economy has shrunk in half since invading Ukraine: Live updates - USA TODAY",
+    "description": "President Joe Biden said Russia should be kicked out of the Group of 20 nations in retaliation for its invasion of Ukraine. Latest news.",
+    "url": "https://www.usatoday.com/story/news/politics/2022/03/24/ukraine-russia-invasion-live-updates/7148986001/",
+    "urlToImage": "https://www.gannett-cdn.com/presto/2022/03/24/USAT/a70210ba-7e44-464e-85b3-a20dc62535b9-AP_Russia_Ukraine_War-1.jpg?auto=webp&crop=4999,2812,x0,y254&format=pjpg&width=1200",
+    "publishedAt": "2022-03-24T21:56:15Z",
+    "content": "President Joe Biden said Russia should be kicked out of the Group of 20 nations in retaliation for its invasion of Ukraine, a major step that would further isolate the Kremlin and restrict Russia's s… [+18070 chars]"
+    },
+    {
+    "source": {
+    "id": "reuters",
+    "name": "Reuters"
+    },
+    "author": null,
+    "title": "Suspected Okta hackers arrested by British police - Reuters UK",
+    "description": "Police in Britain have arrested seven people following a series of hacks by the Lapsus$ hacking group which targeted major firms including Okta Inc <a href=\"https://www.reuters.com/companies/OKTA.O\" target=\"_blank\">(OKTA.O)</a> and Microsoft Corp <a href=\"htt…",
+    "url": "https://www.reuters.com/world/uk/british-police-say-seven-people-arrested-after-okta-hack-2022-03-24/",
+    "urlToImage": "https://www.reuters.com/resizer/CxuqLk7Lala8p5u8OxjeB4q2DuA=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QIKYZPRZM5ORJKCZKMUMPOU3NU.jpg",
+    "publishedAt": "2022-03-24T21:52:00Z",
+    "content": "LONDON/WASHINGTON, March 24 (Reuters) - Police in Britain have arrested seven people following a series of hacks by the Lapsus$ hacking group which targeted major firms including Okta Inc (OKTA.O) an… [+3348 chars]"
+    },
+    {
+    "source": {
+    "id": "newsweek",
+    "name": "Newsweek"
+    },
+    "author": "Lora Korpar",
+    "title": "Ukraine Claims Russia Wants to End War by May 9, Its WWII 'Victory Day' - Newsweek",
+    "description": "Ukrainian media reported Russia wants to end the war on the same day it celebrated victory over Nazi Germany.",
+    "url": "https://www.newsweek.com/russia-end-ukraine-war-victory-day-1691669",
+    "urlToImage": "https://d.newsweek.com/en/full/2008268/russia-wants-end-war-may-9.jpg",
+    "publishedAt": "2022-03-24T21:17:19Z",
+    "content": "Russia wants to end its war with Ukraine by the same day it celebrates its victory in World War II, Ukrainian officials said.\r\nThe general staff of the Armed Forces of Ukraine told the Kyiv Independe… [+3184 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "TMZ"
+    },
+    "author": "TMZ Staff",
+    "title": "Paralyzed Man Speaks First Words with Brain Implant, 'I Want a Beer' - TMZ",
+    "description": "Paralyzed man orders a beer using a brain implant for his first words in months.",
+    "url": "https://www.tmz.com/2022/03/24/paralyzed-man-orders-beer-using-brain-implant-first-words-months/",
+    "urlToImage": "https://imagez.tmz.com/image/16/16by9/2022/03/24/16f73c332a4342dab0c62e073cfc2cfb_xl.jpg",
+    "publishedAt": "2022-03-24T20:38:00Z",
+    "content": "\"I want a beer\" ... a simple and direct request, but a damn amazing one because it was uttered by a paralyzed man who's communicating for the first time in months, thanks to a life-changing brain imp… [+1036 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Eonline.com"
+    },
+    "author": "Allison Crist",
+    "title": "Katie Maloney Reveals If She Would Get Back Together With Tom Schwartz - E! NEWS",
+    "description": "Vanderpump Rules' Katie Maloney may have just filed for divorce from Tom Schwartz, but with the pair still living together, is there any chance for a reconciliation? She says...",
+    "url": "https://www.eonline.com/news/1324469/katie-maloney-reveals-if-she-would-get-back-together-with-tom-schwartz",
+    "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2019718/rs_600x600-190818115124-600-katie-Tom-Schwartz.cm.81819.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+    "publishedAt": "2022-03-24T20:22:00Z",
+    "content": "Is this really goodbye for the Bubbas? \r\nKatie Maloney officially filed for divorce from her Vanderpump Rules co-star Tom Schwartz earlier this week, but after she revealed that they were still livin… [+911 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "YouTube"
+    },
+    "author": null,
+    "title": "Apple's new hardware subscription model may be a game changer, says Bernstein's Sacconaghi - CNBC Television",
+    "description": "Toni Sacconaghi, Bernstein senior research analyst, joins 'Closing Bell' to discuss Apple's new hardware subscription business and what it could mean for the...",
+    "url": "https://www.youtube.com/watch?v=srd5FHeU1jc",
+    "urlToImage": "https://i.ytimg.com/vi/srd5FHeU1jc/hqdefault.jpg",
+    "publishedAt": "2022-03-24T20:07:33Z",
+    "content": null
+    }
+    ]
+    }

@@ -1,0 +1,19 @@
+.new_container{
+    transition: all,0.25s,ease-in-out;
+   padding-bottom: 5px;
+   padding-left:5px ;
+   padding-right:5px ;
+
+}
+.new_container:hover{
+    cursor: pointer;
+background-color: rgba(0, 0, 0, 0.05);
+}
+.news_heading_name_header_container{
+    
+}
+.news_heading_name_header_container >h4{
+    font-size: 12px;
+    color: #657786;
+    font-weight: 400;
+}
