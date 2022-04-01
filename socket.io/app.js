@@ -9,7 +9,7 @@ const mongoose=require('mongoose');
 
 //  imports routes 
 const PostRoute=require('./routes/post')
-
+const AuthRoute =require('./routes/userAuth')
 // modules imports 
 
 const bodyParser=require('body-parser')
@@ -38,6 +38,7 @@ app.use((req,res,next)=>{
 next()
 })
 app.use(PostRoute)
+app.use(AuthRoute)
 
 mongoose.connect('mongodb://localhost:27017/twitter').then(()=>{
     console.log("database Connected ");

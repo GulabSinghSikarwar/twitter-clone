@@ -1,4 +1,4 @@
-const Post = require('../post')
+const Post = require('../DB/SCHEMA/post')
 const socket = require('../socket/socket')
 
 exports.savePost = (req, resp, next) => {
