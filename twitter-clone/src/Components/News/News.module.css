@@ -5,6 +5,7 @@
   border-radius: 10px;
 padding-right:20px ;
 }
+
 .Main_News_Section_Container {
   position: relative;
   /* right: 3%; */
@@ -25,6 +26,8 @@ padding-right:20px ;
   padding-right: auto;
   z-index: 2;
 }
+.Main_News_Section_Container::-webkit-scrollbar{display: none;}
+
 
 .search_News_container{
  

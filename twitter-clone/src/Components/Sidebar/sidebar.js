@@ -101,7 +101,9 @@ const Sidebar = () => {
 
 
                 </div>
-
+                <div className={styled.Tweet_button_container}> 
+                   <button>Tweet</button>
+            </div>
             </div>
 
 

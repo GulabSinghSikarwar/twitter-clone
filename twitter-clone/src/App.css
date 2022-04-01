@@ -39,6 +39,8 @@ overflow-y: scroll;
   /* max-width: 90vh; */
 
 }
+.PostContainer::-webkit-scrollbar{display: none;}
+
 .App {
   text-align: center;
 }

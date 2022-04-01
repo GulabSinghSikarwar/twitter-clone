@@ -1,6 +1,6 @@
 import React from 'react'
 import styled  from './Headline.module.css'
-function Headline( {title ,Provider_name}) {
+function Headline( {title ,Provider_name ,url}) {
     return (
         //   news constainer 
         <div className={styled.new_container}   >
@@ -17,8 +17,9 @@ function Headline( {title ,Provider_name}) {
 
             </div>
             <div className={styled.news_container_image}>
+                <img src={url}/>
 
-            </div>
+            </div>.
 
         </div>
     )

@@ -3,6 +3,9 @@
    padding-bottom: 5px;
    padding-left:5px ;
    padding-right:5px ;
+   display: flex;
+   align-items: center;
+   margin: 5px;
 
 }
 .new_container:hover{
@@ -16,4 +19,13 @@ background-color: rgba(0, 0, 0, 0.05);
     font-size: 12px;
     color: #657786;
     font-weight: 400;
+}
+.news_container_image > img {
+    height: 80px;
+    /* width: .px; */
+    /* -o-object-position: ce; */
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 15px;
+    z-index: 1;
 }

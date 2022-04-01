@@ -66,6 +66,11 @@ function News() {
                   // const url=news.urlToImage;
                   // const date=news.publishedAt;
                   // const content=news.content;
+                  if(!news.urlToImage)
+                  {
+                    console.log(news.urlToImage);
+                  }
+                  
                   return <Headline Provider_name={name} author={news.author} title={title} description={news.description} url={news.urlToImage} date={news.publishedAt} content={news.content} />
                 })
               }
