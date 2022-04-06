@@ -1,0 +1,67 @@
+import React from 'react'
+import styles from './SignUpForm.module.css'
+import ReactDOM from 'react-dom';
+
+
+const Backdrop = () => {
+    return (
+        <div className={styles.backdrop} />
+
+    )
+}
+const Signup_Card = ({showFormHandeler}) => {
+    return (
+        <div className={styles.overlay_container}>
+            <div className={styles.form_card}>
+                <h1>
+                    This is the Sign up card
+                </h1>
+                <form>
+                    <div className={styles.form_item_group}>
+                        <label className={styles.label}>Email </label>
+                        <input />
+                    </div>
+
+                    <div className={styles.form_item_group}>
+                        <label className={styles.label}>Password  </label>
+                        <input />
+                    </div>
+
+                    <div className={styles.form_item_group}>
+                        <label className={styles.label}> Confirm Password  </label>
+                        <input />
+                    </div>
+
+                    <div className={styles.form_item_group_btn_container}>
+                        <span className={styles.signup_form_button}>
+                            Sign Up
+                        </span>
+                        <span onClick={showFormHandeler} className={styles.signup_form_button}>
+                           cancel
+                        </span>
+                    </div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+    )
+}
+function SignUpForm({showFormHandeler}) {
+    const overlayRoot = document.getElementById('overlay');
+    return (
+        <React.Fragment>
+            {
+                ReactDOM.createPortal(<Backdrop />, overlayRoot)
+            }
+            {
+                ReactDOM.createPortal(<Signup_Card  showFormHandeler={showFormHandeler}/>, overlayRoot)
+            }
+
+        </React.Fragment>
+    )
+}
+
+export default SignUpForm

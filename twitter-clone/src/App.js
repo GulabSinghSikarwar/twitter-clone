@@ -4,17 +4,26 @@ import Posts from './Components/Posts';
 import AddPost from './Components/Post/AddPost';
 import Sidebar from './Components/Sidebar/sidebar';
 import News from './Components/News/News';
+import {Routes ,Route} from 'react-router-dom'
+import Signup from './Components/Screens/signup_Screens/Signup';
 
 function App() {
   return (
     <div className='app-container'>
 
-      <Sidebar />
+      {/* <Sidebar />
       <div className='PostContainer' >
         <AddPost />
         <Posts />
       </div>
-      <News />
+      <News /> */}
+  
+      <Routes>
+        
+        <Route path='/signup' element={<Signup/>}/>
+        
+      </Routes>
+
 
 
     </div>
