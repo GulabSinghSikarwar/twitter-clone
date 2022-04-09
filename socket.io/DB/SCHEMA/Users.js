@@ -10,7 +10,7 @@ const userSchema=new Schema({
         required:[true,"please Enter the email "],
         unique:true,
         lowercase:true, 
-        validate:[isEmail,"Please Enter the Valid email "]
+        // validate:[isEmail,"Please Enter the Valid email "]
     },
 
     password:{
@@ -32,11 +32,23 @@ userSchema.pre('save', async  function(){
 
     
 })
-userSchema.post('save',function(){
-    console.log(`
-    User Have been   created :
-     ${this}
-    `);
-    // next()
-})
+userSchema.statics.login=async function (email,password){
+    const user =  await this.findOne({email:email})
+    console.log("email : ",email,"  password :",password);
+    if(user)
+    {
+
+        const valid_password= await bcrypt.compare(password,user.password);
+        if(valid_password)
+        {
+            return user;
+
+
+        }
+        throw Error("Wrong Password ")
+
+    }
+    throw Error("Incorrect E-mail")
+}
+
 module.exports=mongoose.model('User',userSchema)
