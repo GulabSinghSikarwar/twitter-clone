@@ -34,75 +34,53 @@ app.use((req,resp,next) => {
 
 app.use((req, resp, next) => {
 
-    resp.setHeader('Access-Control-Allow-Origin','*')
+    resp.setHeader('Access-Control-Allow-Origin','http://localhost:3000')
     resp.setHeader('Access-Control-Allow-Methods','GET,POST')
+    resp.setHeader('Access-Control-Allow-Credentials',true)
     resp.setHeader('Access-Control-Allow-Headers','Content-Type,Authorization')
 
 
     next()
 })
 app.use(PostRoute)
-app.post('/signup' ,async (req, resp) => {
+// app.post('/signup' ,async (req, resp) => {
 
-    console.log("req bod    ", req.body);
-    const email = req.body.email;
-    const password = req.body.password;
-    const user_data = {
-        email: email,
-        password: password
-    }
-    console.log(user_data);
+//     console.log("req bod    ", req.body);
+//     const email = req.body.email;
+//     const password = req.body.password;
+//     const user_data = {
+//         email: email,
+//         password: password
+//     }
+//     console.log(user_data);
 
-    try {
+//     try {
 
-        //    resp.cookie('newUser', false)
-        const user = await User.create(user_data);
-        const token = createToken(user._id);
-        console.log("success");
-        // resp.cookie('jwt', token, {
-        //     httpOnly: true, maxAge: 3
-        //         * 24 * 60 * 60 * 1000
-        // })
-        resp.cookie('jwt',token)
-        resp.cookie('newUserPart2', false)
-        resp.status('200').json({ body: user })
-    } catch (err) {
-        console.log("error occured ");
-        // console.log(err);
-        const message = errorHandeler(err)
-        resp.status('400').json({
-            message: message
-        })
-    }
-    {/*
- const signUp_User = new User(user)
-    signUp_User.create().then((result) => {
-
-        console.log("result ",result);
-        const token = createToken(result._id);
-        console.log("success");
+//         //    resp.cookie('newUser', false)
+//         const user = await User.create(user_data);
+//         const token = createToken(user._id);
+//         console.log("success");
+//         // resp.cookie('jwt', token, {
+//         //     httpOnly: true, maxAge: 3
+//         //         * 24 * 60 * 60 * 1000
+//         // })
+//         resp.cookie('jwt',token)
+//         resp.cookie('newUserPart2', false)
+//         resp.status('200').json({ body: user })
+//     } catch (err) {
+//         console.log("error occured ");
+//         // console.log(err);
+//         const message = errorHandeler(err)
+//         resp.status('400').json({
+//             message: message
+//         })
+//     }
+  
 
 
-        res.cookie('new user',false)
-        // resp.cookie('jwt',token,{httpOnly:true,maxAge:3
-        // *24*60*60*1000})
-        resp.status('200').json({ body: result })
-
-
-    }).catch((err) => {
-        console.log("error occured ");
-        // console.log(err);
-        const message = errorHandeler(err)
-        resp.status('400').json({
-            message: message
-        })
-
-    }) */}
-
-
-    // const loginUser=
-})
-// app.use(AuthRoute)
+//     // const loginUser=
+// })
+app.use(AuthRoute)
 
 mongoose.connect('mongodb://localhost:27017/twitter').then(() => {
     console.log("database Connected ");

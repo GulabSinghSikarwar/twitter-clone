@@ -1,6 +1,7 @@
 const res = require('express/lib/response');
 const User = require('../DB/SCHEMA/Users')
 const createToken = require('./createToken');
+const jsonwebtoken = require('jsonwebtoken')
 const errorHandeler = (err) => {
     // console.log(err.message);
 
@@ -14,6 +15,12 @@ exports.loginUser = async (req, resp) => {
       const email=req.body.email;
       const password=req.body.password;
       const user= await User.login(email,password);
+      const token=createToken(user._id)
+
+      resp.cookie('jwt',token);
+      resp.cookie('new user ',true)
+      
+      
       resp.status('200').json({id:user._id})
 
 
@@ -47,10 +54,7 @@ exports.signUpUser = async (req, resp) => {
         const user = await User.create(user_data);
         const token = createToken(user._id);
         console.log("success");
-        // resp.cookie('jwt', token, {
-        //     httpOnly: true, maxAge: 3
-        //         * 24 * 60 * 60 * 1000
-        // })
+        
         resp.cookie('jwt',token)
         resp.cookie('newUserPart2', false)
         resp.status('200').json({ body: user })
@@ -62,31 +66,49 @@ exports.signUpUser = async (req, resp) => {
             message: message
         })
     }
-    {/*
- const signUp_User = new User(user)
-    signUp_User.create().then((result) => {
-
-        console.log("result ",result);
-        const token = createToken(result._id);
-        console.log("success");
-
-
-        res.cookie('new user',false)
-        // resp.cookie('jwt',token,{httpOnly:true,maxAge:3
-        // *24*60*60*1000})
-        resp.status('200').json({ body: result })
-
-
-    }).catch((err) => {
-        console.log("error occured ");
-        // console.log(err);
-        const message = errorHandeler(err)
-        resp.status('400').json({
-            message: message
-        })
-
-    }) */}
+   
 
 
     // const loginUser=
+}
+exports.getAtuthSatus=async (req,resp)=>{
+
+    const token=req.cookies.jwt;
+    console.log(req.cookies);
+    
+
+    if(token){
+        jsonwebtoken.verify(token,'Twitter_clone_two_point_O',(err,decoded)=>{
+
+            if(err)
+            {
+                const message="something wrong with JWT token , False token ! ";
+                resp.status('200').json({
+                    isAuthenticated:false,
+                    tokenStatus:"token_found_but_False",
+                    message:message
+                })
+
+            }
+            else{
+                console.log(decoded);
+                resp.status('200').json({
+                    isAuthenticated:true,
+                    tokenStatus:"token_found",
+                    token_verified:'true',
+                    user_id:decoded,
+                    jwt:token
+                })
+            }
+
+        })
+        
+       
+    }
+    else{
+        resp.status('200').json({
+            isAuthenticated:false,
+            tokenStatus:"not_found"
+        })
+    }
 }
